@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputfile{
+    display: none;
+}
+
+.image{
+    background-size:cover;
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+}
+
+.image + .image{
+    margin-left:30px;
+}
+
+.photosStrip{
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+}

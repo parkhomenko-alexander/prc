@@ -1,0 +1,32 @@
+.headerWrapper{
+    background-color: #8D678A;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    width: 100%;
+}
+
+.header {
+    padding-left: 60px;
+    display: flex;
+    list-style-type: none;    
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.header li+li{
+    padding-left: 70px;
+
+}
+
+.active{
+    background-color: #a578a2;
+    border-radius: 50px;
+}
